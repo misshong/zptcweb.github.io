@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .clearfix::after{
+      content:"";
+      clear:both;
+      width: 0;
+      height: 0;
+      display: block;
+    }
+    .menu{
+      list-style-type: none;
+      border-bottom:4px solid #939;
+      padding: 0;
+    }
+    .menu li{
+      float: left;
+      width: 100px;
+      height: 36px;
+      text-align: center;
+      line-height: 36px;
+      background-color: #eee;
+      margin: 0px 2px;
+    }
+     .menu li:hover{
+      height:40px;
+      margin-top: -4px;
+      background-color: #939;
+    }
+    .menu li a:link{
+      color:#444;
+      font:bold 14px/1.5 simsun;
+      text-decoration: none;
+    }
+    .menu li:hover a:link{
+      color:#fff;
+    }
+    .menu li:hover a:visited{
+      color:#fff;
+    }
+    .menu li a:visited{
+      color:#444;
+    }
+    .menu li a:hover{
+
+    }
+  </style>
+</head>
+<body>
+  <ul class="menu clearfix">
+    <li><a href="#">糯米</a></li>
+    <li><a href="#">新闻</a></li>
+    <li><a href="#">好123</a></li>
+    <li><a href="#">地图</a></li>
+    <li><a href="#">视频</a></li>
+    <li><a href="#">贴吧</a></li>
+  </ul>
+  
+  <!--
+  块状元素  要求单独占一行  h1 h2 p div li 
+  行内元素  不要求单独占一行  a  em strong i b span 
+
+  菜单转成水平菜单  脱离常规流
+
+  脱离常规流的方式
+    浮动 定位
+
+  空白的实现
+    padding margin
+   
+  单行文本垂直居中对齐
+    行高line-height设置成和高度一样的值height
+  -->
+  
+  
+</body>
+</html>

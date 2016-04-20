@@ -4,29 +4,44 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <style>
+    .clearfix::after{
+      content:"";
+      clear:both;
+      width: 0;
+      height: 0;
+      display: block;
+    }
     .menu{
-       list-style-type: none;
+      list-style-type: none;
+      background-color: #eee;
+      padding: 0;
     }
     .menu li{
       float: left;
-     
+      width: 100px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      margin: 10px 0px;
+    }
+    .menu li:not(:first-child){
+      border-left:1px solid #000;
     }
     .menu li a:link{
       color:#444;
       font:bold 14px/1.5 simsun;
       text-decoration: none;
-       padding: 10px 20px;
-      margin: 6px;
-      background-color: #eee;
+    }
+    .menu li a:visited{
+      color:#444;
     }
     .menu li a:hover{
-      color:#fff;
-       background-color: #e3e;
+
     }
   </style>
 </head>
 <body>
-  <ul class="menu">
+  <ul class="menu clearfix">
     <li><a href="#">糯米</a></li>
     <li><a href="#">新闻</a></li>
     <li><a href="#">好123</a></li>
@@ -46,6 +61,9 @@
 
   空白的实现
     padding margin
+   
+  单行文本垂直居中对齐
+    行高line-height设置成和高度一样的值height
   -->
   
   
