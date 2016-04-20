@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>菜单</title>
+  <style>
+    .clearfix::after{
+      content:"";
+      display: block;
+      clear:both;
+      width: 0;
+      height: 0;
+      font-size:0;
+    }
+    .menu li{
+      list-style-type: none;
+      float: left;
+      border-right:1px solid #000;
+      padding:0px 20px;
+    }
+    .menu li.last{
+      border-right:0px solid #000;
+    }
+    .menu li a:link{
+      color:#000;
+    }
+    .menu li a:hover{
+      color:#00f;
+    }
+  </style>
+</head>
+<body>
+  <ul class="menu clearfix">
+    <li><a href="#">网站首页</a></li>
+    <li><a href="#">企业新闻</a></li>
+    <li><a href="#">通知公告</a></li>
+    <li><a href="#">产品体系</a></li>
+    <li><a href="#">联系我们</a></li>
+    <li class="last"><a href="#">关于我们</a></li>
+  </ul>
+  <!--
+  ul.menu>li*6>a[href="#"]{首页}
+
+  常规流的情况
+    行内元素 不要求单独占一行  a span em strong
+    块状元素 要求单独占一行    h1 h2 p br li 
+  改变常规流的情况  float position
+    浮动  清除浮动
+  空格的学问
+    padding margin border 实现空白
+    如果说没有背景色/图像，一般情况下使用padding和margin都行
+    如果有背景，空白在背景上用padding，否则用margin
+  -->
+</body>
+</html>
