@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .menu li{
+      list-style-type: none;
+    }
+    .menu li{
+      width:100px;
+      text-align: center;
+      line-height: 30px;
+      background-color: #eee;
+      float: left;
+      margin: 2px;
+    }
+    .menu li:hover{
+      background-color: #eef;
+    }
+    .menu li a{
+      text-decoration: none;
+      color:#000;
+    }
+    .menu li ul{
+      padding: 0;
+      overflow:hidden;
+      transition:all 1s;
+      max-height:0px;
+    }
+     .menu li:hover ul{
+      max-height:1000px;
+    }
+    .menu li ul li{
+      background-color: #eef;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#">网站首页</a></li>
+    <li><a href="#">网站首页</a>
+      <ul>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+      </ul>
+    </li>
+    <li><a href="#">网站首页</a><ul>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+      </ul></li>
+    <li><a href="#">网站首页</a><ul>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+      </ul></li>
+    <li><a href="#">网站首页</a><ul>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+        <li><a href="#">子菜单</a></li>
+      </ul></li>
+  </ul>
+</body>
+</html>
