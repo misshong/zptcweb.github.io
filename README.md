@@ -26,3 +26,7 @@
 [菜单04练习](menu04.htm)  [菜单04预览](http://zptcweb.github.io/menu04.htm)
 [菜单05练习](menu05.htm)  [菜单05预览](http://zptcweb.github.io/menu05.htm)
 [菜单06练习](menu06.htm)  [菜单06预览](http://zptcweb.github.io/menu06.htm)
+
+## 表格样式
+[表格样式1练习](table02.html)  [表格样式1预览](http://zptcweb.github.io/table02.html)
+[表格样式2练习](table03.html)  [表格样式2预览](http://zptcweb.github.io/table03.html)
