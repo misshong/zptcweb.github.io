@@ -32,3 +32,7 @@
 ## 表格样式
 [表格样式1练习](table02.html)  [表格样式1预览](http://zptcweb.github.io/table02.html)
 [表格样式2练习](table03.html)  [表格样式2预览](http://zptcweb.github.io/table03.html)
+
+## 图片鼠标悬停
+[图片鼠标悬停1练习](img01.html)  [图片鼠标悬停1预览](http://zptcweb.github.io/img01.html)
+[图片鼠标悬停2练习](img02.html)  [图片鼠标悬停2预览](http://zptcweb.github.io/img02.html)
