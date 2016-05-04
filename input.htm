@@ -26,6 +26,11 @@
       border: 1px solid #eee;
       padding: 4px 10px;
     }
+    .topMenu{
+      position: fixed;
+      right:10px;
+      top:0px;
+    }
   </style>
 </head>
 <body>
@@ -123,13 +128,20 @@
       <input type="submit" value="注册">
       <input type="reset" value="再来">
     </p>
-    <p>
-      
-      <select name="" id="">
-        <option value="">选择你要去的地方</option>
-        <option value="//baidu.com">baidu</option>
+    <p class="topMenu">
+      <select name="go" id="go" onchange="goto()">
+        <option value="">网站导航</option>
+        <option value="//www.baidu.com">baidu</option>
+        <option value="http://www.qq.com">qq</option>
       </select>
     </p>
   </form>
+  <script>
+  	var go=document.getElementById("go");
+    function goto(){
+    	var ab=go.value;
+      	window.open(ab);
+    }
+  </script>
 </body>
 </html>
