@@ -21,13 +21,13 @@
 
 ## 菜单
 [菜单01练习](menu.htm)  [菜单01预览](http://zptcweb.github.io/menu.htm)
-[菜单02练习](menu02.htm)  [菜单02预览](http://zptcweb.github.io/menu02.htm)
+[菜单02练习](menu2.htm)  [菜单02预览](http://zptcweb.github.io/menu2.htm)
 
-[菜单03练习](menu03.htm)  [菜单03预览](http://zptcweb.github.io/menu03.htm)
-[菜单04练习](menu04.htm)  [菜单04预览](http://zptcweb.github.io/menu04.htm)
+[菜单03练习](menu3.htm)  [菜单03预览](http://zptcweb.github.io/menu3.htm)
+[菜单04练习](menu4.htm)  [菜单04预览](http://zptcweb.github.io/menu4.htm)
 
-[菜单05练习](menu05.htm)  [菜单05预览](http://zptcweb.github.io/menu05.htm)
-[菜单06练习](menu06.htm)  [菜单06预览](http://zptcweb.github.io/menu06.htm)
+[菜单05练习](menu5.htm)  [菜单05预览](http://zptcweb.github.io/menu5.htm)
+[菜单06练习](menu6.htm)  [菜单06预览](http://zptcweb.github.io/menu6.htm)
 
 ## 表格样式
 [表格样式1练习](table02.html)  [表格样式1预览](http://zptcweb.github.io/table02.html)
@@ -36,3 +36,7 @@
 ## 图片鼠标悬停
 [图片鼠标悬停1练习](img01.html)  [图片鼠标悬停1预览](http://zptcweb.github.io/img01.html)
 [图片鼠标悬停2练习](img02.html)  [图片鼠标悬停2预览](http://zptcweb.github.io/img02.html)
+
+## 表单
+[表单1练习](input.html)  [表单1预览](http://zptcweb.github.io/input.html)
+[表单2练习](img02.html)  [表单2预览](http://zptcweb.github.io/img02.html)

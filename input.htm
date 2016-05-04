@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>表单-接受用户的输入</title>
+  <style>
+    .reg p{
+      height:14px;
+    }
+    .reg label{
+      display: inline-block;
+      width:100px;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <!--
+  表单
+    form  实现与后台数据的交互
+        method 与后台数据交互的方法
+        action 与后台数据交互的处理文件
+    label  标签
+    input 
+         type属性  
+             text
+             password
+             radio
+             checkbox
+             file  文件浏览
+             image
+             hidden 向服务器偷偷的传送数据
+           html5 新增的input类型
+             color
+             month date
+             number
+             range
+
+     
+
+
+
+
+
+
+
+
+
+
+
+  网页开发的方向，流程
+    前端
+      实现页面呈现  html+css+js
+    后端
+      实现业务逻辑  php+mysql
+    全栈开发
+      前后端全实现
+
+  Android应用开发
+    前端
+      android系统的组件，实现应用的排版
+    后端  
+      java实现应用的逻辑 数据库
+      管理中心  网页技术实现
+  -->
+  <form class="reg" action="abc.php">
+    <p><label for="user">用户名：</label><input type="text" id="user"></p>
+    <p><label for="pwd">密码：</label><input type="password" id="pwd"></p>
+    <p>
+      <label for="sex">性别：</label>
+      <input type="radio" name="sex" value="male">男 
+      <input type="radio" name="sex" value="female">女
+    </p>
+    <p>
+      <label for="sex">爱好：</label>
+      <input type="checkbox" name="fav" value="read">阅读
+      <input type="checkbox" name="fav" value="film">电影
+      <input type="checkbox" name="fav" value="film">大大大
+    </p>
+    <input type="range" name="" id="">
+    <input type="submit" value="提交">
+  </form>
+</body>
+</html>
