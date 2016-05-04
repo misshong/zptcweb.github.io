@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>表单-接受用户的输入</title>
   <style>
+    .reg{
+      width:400px;
+    }
     .reg p{
       height:14px;
     }
@@ -11,6 +14,17 @@
       display: inline-block;
       width:100px;
       text-align: right;
+    }
+    .reg .tj{
+      text-indent: 4em;
+    }
+    fieldset{
+      border: 1px solid #ddd;
+      margin: 10px 0;
+    }
+    legend{
+      border: 1px solid #eee;
+      padding: 4px 10px;
     }
   </style>
 </head>
@@ -35,18 +49,23 @@
              month date
              number
              range
+    textarea  多行文本
+    select option
 
-     
+    fieldset
+    legend
+      可以对表单进行分组
+
+  几个属性
+    value 表单的值
+    checked radio、checkbox选中的情况
+    disabled 禁用状态
+    enabled 启用状态
 
 
-
-
-
-
-
-
-
-
+   表单的html实现   样子 
+      javascript获取一些信息
+      php+mysql等技术实现与后台交互
 
   网页开发的方向，流程
     前端
@@ -63,22 +82,54 @@
       java实现应用的逻辑 数据库
       管理中心  网页技术实现
   -->
-  <form class="reg" action="abc.php">
-    <p><label for="user">用户名：</label><input type="text" id="user"></p>
+  <form class="reg" action="#">
+    <fieldset>
+      <legend>基本信息</legend>
+       <p><label for="user">用户名：</label><input type="text" id="user"></p>
     <p><label for="pwd">密码：</label><input type="password" id="pwd"></p>
     <p>
       <label for="sex">性别：</label>
-      <input type="radio" name="sex" value="male">男 
+      <input type="radio" name="sex" checked value="male">男 
       <input type="radio" name="sex" value="female">女
     </p>
-    <p>
+    </fieldset>
+    <fieldset>
+      <legend>其他信息</legend>
+      <p>
       <label for="sex">爱好：</label>
-      <input type="checkbox" name="fav" value="read">阅读
-      <input type="checkbox" name="fav" value="film">电影
+      <input type="checkbox" name="fav" checked value="read">阅读
+      <input type="checkbox" name="fav" checked value="film">电影
       <input type="checkbox" name="fav" value="film">大大大
     </p>
-    <input type="range" name="" id="">
-    <input type="submit" value="提交">
+    <p><label for="">范围：</label><input type="range" name="" id=""></p>
+    <p>
+      <label for="">来自于：</label>
+      <select name="" id="">
+        <option value="zj">浙江</option>
+        <option value="hlj">黑龙江</option>
+      </select>
+      <select name="" id="">
+        <option value="">绍兴</option>
+        <option value="">杭州</option>
+      </select>
+    </p>
+    <div>
+      <label for="">留言：</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    </fieldset>
+   
+    <p class="tj">
+      <input type="submit" value="注册">
+      <input type="reset" value="再来">
+    </p>
+    <p>
+      
+      <select name="" id="">
+        <option value="">选择你要去的地方</option>
+        <option value="//baidu.com">baidu</option>
+      </select>
+    </p>
   </form>
 </body>
 </html>
