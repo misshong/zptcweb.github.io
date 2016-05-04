@@ -38,5 +38,5 @@
 [图片鼠标悬停2练习](img02.html)  [图片鼠标悬停2预览](http://zptcweb.github.io/img02.html)
 
 ## 表单
-[表单1练习](input.html)  [表单1预览](http://zptcweb.github.io/input.html)
-[表单2练习](img02.html)  [表单2预览](http://zptcweb.github.io/img02.html)
+[表单1练习](input.htm)  [表单1预览](http://zptcweb.github.io/input.htm)
+[表单2练习](img02.htm)  [表单2预览](http://zptcweb.github.io/img02.htm)
