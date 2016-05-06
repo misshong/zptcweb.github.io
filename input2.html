@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    label{
+      color:#46D2DB;
+    }
+    input[type="text"]{
+      border:none;
+      outline:none;
+      padding:11px 15px;
+      background-color: #F6F6F6;
+      border:1px solid #d6d6d6;
+      border-width:1px 0 0 1px;
+      width:200px;
+    }
+    input[type="text"]:focus{
+      border-color:#46D2DB;
+    }
+    input::-webkit-input-placeholder{
+			color:#0f0;
+    }
+    input::-moz-placeholder{
+      color:#0f0;
+    }
+    input:-ms-input-placeholder{
+      color:#0f0;
+    }
+    input::placeholder{
+      color:#0f0;
+    }
+  </style>
+</head>
+<body>
+<form action="">
+  <div>
+    <label for="">Subject:</label>
+    <input type="text" name="subject" id="subject" placeholder="How Can we help you?">
+  </div> 
+  <div>
+    <label for=""></label>
+    <input type="radio" name="a" id="">男
+    <input type="radio" name="a">女
+  </div>
+</form>
+  <!-- 
+		一些新的css属性浏览器没有得到统一，不同浏览器在实现的时候需要加前缀 vendor prefix
+			-webkit-  chrome  safari  360浏览器等高速模式
+			-moz-     firefox         
+			-o-       opera
+			-ms-      IE浏览器
+
+		手动书写
+		emmet 快速的简写  trs tab
+		prefixfree 方式进行自动化处理  解释型语言 编译型语言
+		autoprefixer  编译处理前缀  
+			autoprefixer在sublimetext 的安装
+				node.js 的安装
+				install package的方式安装 autoprefixer
+	 -->
+</body>
+</html>
