@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    *{
+      box-sizing:border-box;
+    }
+    .search{
+      width: 250px;
+      position: relative;
+    }
+    .search .keyword{
+      border:none;
+      outline:none;
+      background-color: #eee;
+      padding: 6px 10px;
+      border-radius:3px;
+      width: 250px;
+    }
+    .search .searchBtn{
+      border: none;
+      outline:none;
+      background:none;
+      text-indent: -222em;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      background:url("http://www.8bears.com/images/default/search.png") no-repeat;
+      position: absolute;
+      top:2px;
+      right:6px;
+    }
+  </style>
+</head>
+<body>
+  <form class="search" action="">
+    <input class="keyword" type="text" name="search" id="search" placeholder="请输入关键字！">
+    <input class="searchBtn" type="submit" value="搜索">
+  </form>
+</body>
+</html>

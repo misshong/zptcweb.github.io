@@ -6,6 +6,7 @@
   <style>
     div{
       margin: 10px 0;
+      width: 280px;
     }
     label{
       color:#46D2DB;
@@ -28,7 +29,7 @@
       border-color:#46D2DB;
     }
     input::-webkit-input-placeholder{
-	  color:#46D2DB;
+    color:#46D2DB;
     }
     input::-moz-placeholder{
       color:#46D2DB;
@@ -77,6 +78,7 @@
       border-color:#46D2DB;
       background-color:#46D2DB;
     }
+
   </style>
 </head>
 <body>
@@ -86,7 +88,7 @@
     <input type="text" name="subject" id="subject" placeholder="How Can we help you?">
   </div> 
   <div>
-    <label for="" class="message">Message:</label>
+    <label for="" class="message";>Message:</label>
     <textarea name="message" id="message" cols="30" rows="10"></textarea>
   </div>
   <div>
@@ -96,23 +98,27 @@
   <input class="submit" type="submit" value="Send">
 </form>
   <!-- 
-		一些新的css属性浏览器没有得到统一，不同浏览器在实现的时候需要加前缀 vendor prefix
-			-webkit-  chrome  safari  360浏览器等高速模式
-			-moz-     firefox         
-			-o-       opera
-			-ms-      IE浏览器
+    一些新的css属性浏览器没有得到统一，不同浏览器在实现的时候需要加前缀 vendor prefix
+      -webkit-  chrome  safari  360浏览器等高速模式
+      -moz-     firefox         
+      -o-       opera
+      -ms-      IE浏览器
 
-		手动书写
-		emmet 快速的简写  trs tab
-		prefixfree 方式进行自动化处理  解释型语言 编译型语言
-		autoprefixer  编译处理前缀  
-			autoprefixer在sublimetext 的安装
-				node.js 的安装
-				install package的方式安装 autoprefixer
+    手动书写
+    emmet 快速的简写  trs tab
+    prefixfree 方式进行自动化处理  解释型语言 编译型语言
+    autoprefixer  编译处理前缀  
+      autoprefixer在sublimetext 的安装
+        node.js 的安装
+        install package的方式安装 autoprefixer
+      gulp
+
         
        表单的处理
           为了清除表单原来的样式，可以将border\outline\background等先清掉。
-       
-	 -->
+  
+
+
+   -->
 </body>
 </html>

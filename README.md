@@ -40,3 +40,4 @@
 ## 表单
 [表单1练习](input.html)  [表单1预览](http://zptcweb.github.io/input.html)
 [表单2练习](input2.html)  [表单2预览](http://zptcweb.github.io/input2.html)
+[表单3练习](input3.html)  [表单2预览](http://zptcweb.github.io/input3.html)
