@@ -32,7 +32,7 @@
     }
     
     .top .search {
-        width: 345px;
+        width: 320px;
         height: 32px;
         /* background: url('http://dl.pinyin.sogou.com/index/header/search_box.png'); */
         float: right;
@@ -118,9 +118,9 @@
       position: relative;
     }
     .bannerContainer .banner .date{
+      position: absolute; 
       left: 574px;
-     top: 252px;
-      position: absolute;    
+      top: 252px;  
     }
     .bannerContainer .banner .version{
       position: absolute;
@@ -160,7 +160,7 @@
       right: 0;
       bottom: 20px;
     } 
-    .bannerContainer .banner .mobileDownload a{
+    .bannerContainer .banner .mobileDownload{
       display: inline-block;
       width: 90px;
       height: 22px;
@@ -208,9 +208,13 @@
       
       
     如果出现position:relative; 而又没有left\top\right\bottom等偏移值，
-      则此句的目的是为了让该元素成为其后台元素的绝对定位基准。
+      则此句的目的是为了让该元素成为其后代元素的绝对定位的基准。
       
-    
+    总结CSS如何写
+       选择符，根据你的html来写, 最好做好合理限定  
+       内容
+         样子  width height background border
+         位置  padding margin position float
     */
     </style>
 </head>
