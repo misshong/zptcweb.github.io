@@ -16,18 +16,18 @@
 [表格练习](table.html)  [表格预览](http://zptcweb.github.io/table.html)
 
 ## 边框
-[边框01练习](border01.htm)  [边框01预览](http://zptcweb.github.io/border01.htm)
-[边框02练习](border02.htm)  [边框02预览](http://zptcweb.github.io/border02.htm)
+[边框01练习](border01.html)  [边框01预览](http://zptcweb.github.io/border01.html)
+[边框02练习](border02.html)  [边框02预览](http://zptcweb.github.io/border02.html)
 
 ## 菜单
-[菜单01练习](menu.htm)  [菜单01预览](http://zptcweb.github.io/menu.htm)
-[菜单02练习](menu2.htm)  [菜单02预览](http://zptcweb.github.io/menu2.htm)
+[菜单01练习](menu.html)  [菜单01预览](http://zptcweb.github.io/menu.html)
+[菜单02练习](menu2.html)  [菜单02预览](http://zptcweb.github.io/menu2.html)
 
-[菜单03练习](menu3.htm)  [菜单03预览](http://zptcweb.github.io/menu3.htm)
-[菜单04练习](menu4.htm)  [菜单04预览](http://zptcweb.github.io/menu4.htm)
+[菜单03练习](menu3.html)  [菜单03预览](http://zptcweb.github.io/menu3.html)
+[菜单04练习](menu4.html)  [菜单04预览](http://zptcweb.github.io/menu4.html)
 
-[菜单05练习](menu5.htm)  [菜单05预览](http://zptcweb.github.io/menu5.htm)
-[菜单06练习](menu6.htm)  [菜单06预览](http://zptcweb.github.io/menu6.htm)
+[菜单05练习](menu5.html)  [菜单05预览](http://zptcweb.github.io/menu5.html)
+[菜单06练习](menu6.html)  [菜单06预览](http://zptcweb.github.io/menu6.html)
 
 ## 表格样式
 [表格样式1练习](table02.html)  [表格样式1预览](http://zptcweb.github.io/table02.html)
