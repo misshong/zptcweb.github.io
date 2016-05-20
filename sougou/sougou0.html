@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* 
+    网页包含两个部分
+    1. html
+       1.1 某个元素的具体html实现
+       1.2 为了实现某个元素的布局、位置而设置的容器、属性
+    2. css
+       2.1 某个元素的样式CSS实现
+          width height color background border padding margin 文字样式 列表样式  表格样式等
+       2.2 某个元素的布局（位置）CSS实现
+          float position padding margin
+          是否脱离常规流
+            不脱离
+               padding margin
+               position: relative;
+            脱离
+               固定定位  position:fixed;
+                  当某个元素相对于窗口位置固定的时候
+               绝对定位  position:absolute;
+                  当某个元素相对于某个祖先元素位置固定的时候
+                  绝对定位不大适合于大量元素（建议给大量元素添加容器）
+               浮动
+                  块状元素需要从纵向排列转成横向排列的时候
+                  需要实现左右分列的时候
+                  
+                  一旦浮动，记得清除
+    
+       2.3 具体写法
+           2.3.1 选择符（选择器）
+           2.3.2 规则
+              样式规则
+              位置规则
+       2.4 css书写顺序
+          2.4.1 文档的书写顺序
+           先公共类
+           再全局，再局部
+           再从上往下
+          2.4.2 属性的书写顺序
+            火狐的推荐顺序
+                div{
+                 display  
+                 * list-style  
+                 * position  
+                 * float  
+                 * clear  
+                 * width  
+                 * height  
+                 * margin  
+                 * padding  
+                 * border  
+                 * background  
+                 * color  
+                 * font  
+                 * text-decoration  
+                 * text-align  
+                 * vertical-align  
+                 * white-space  
+                 * other text  
+                 * content  
+                } 
+    
+            设计达人的推荐顺序
+                  1.位置属性(position, top, right, z-index, display, float等)
+                  2.大小(width, height, padding, margin)
+                  3.文字系列(font, line-height, letter-spacing, color- text-align等)
+                  4.背景(background, border等)
+                  5.其他(animation, transition等)           
+    
+    */
+  </style>
+</head>
+<body>
+
+</body>
+</html>
