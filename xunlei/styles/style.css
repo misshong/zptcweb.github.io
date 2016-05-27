@@ -1,0 +1,28 @@
+/*
+中间不同内容的实现
+*/
+
+
+/*
+公司介绍页面
+*/
+
+.introduction .content .text {
+    margin-top: 20px;
+}
+
+.introduction .content .text p {
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-indent: 2em;
+}
+
+
+/*
+管理团队页面
+*/
+
+.team .banner {
+    background: url(../images/manager_banner.jpg) center;
+}
