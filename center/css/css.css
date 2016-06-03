@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    counter-reset: ab
+}
+
+h1,
+h2 {
+    /*text-align: center;*/
+    border: 1px solid #000;
+    width: 300px;
+}
+
+h2 {
+    counter-increment: ab;
+}
+
+h2::before {
+    content: counter(ab)". ";
+}
+
+.textCenter {
+    width: 500px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 60px;
+}
+
+.textCenterM {
+    width: 500px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .3);
+    /*text-align: center;*/
+    line-height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.center {
+    border: 1px solid #000;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+}
+
+.f {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 10px;
+    position: relative;
+}
+
+.f .s {
+    width: 140px;
+    height: 160px;
+    background-color: #f00;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /*
+    left: 50%;
+    top: 50%;
+
+    margin-left: -70px;
+    margin-top: -80px;
+
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    /* autoprefixer CSS3前缀的自动编译 ctrl+shift+p */
+}
+
+table {
+    width: 500px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    border: 1px solid #000;
+    height: 90px;
+    text-align: center;
+    /*vertical-align: middle;*/
+}
