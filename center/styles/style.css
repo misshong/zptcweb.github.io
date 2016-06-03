@@ -1,0 +1,16 @@
+body {
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+.page {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: url(../images/bg_member.jpg) center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
