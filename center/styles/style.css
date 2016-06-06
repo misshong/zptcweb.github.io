@@ -4,6 +4,9 @@ body {
     margin: 0;
 }
 
+/*
+    满屏容器
+*/
 .page {
     position: fixed;
     min-width: 100%;
@@ -11,15 +14,40 @@ body {
     width: auto;
     height: auto;
 }
-.page .controls a{
-/*    position: absolute;
+/*
+    logo
+*/
+.logo{
+    width: 142px;
+    height: 64px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+.logo img{
+    width: 100%;
+}
+/*
+    控制按钮及背景切换
+*/
+.controls{
+    position: absolute;
     left: 0;
     right: 0;
     bottom: 40px;
     margin: auto;
-    width: 310px;*/
+    width: 310px;
 }
-.page .controls a{
+.controls::after{
+    content: "";
+    width: 95%;
+    height: 2px;
+    background: rgba(255,255,255,.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.controls a{
     text-decoration: none;
     text-indent: -999em;
     display: inline-block;
@@ -28,32 +56,56 @@ body {
     margin-right: 10px;
     background: url(../images/ic_spr.png) no-repeat;
 }
-.page .controls a:nth-of-type(1){
+.controls a:last-child{
+    margin-right: 0px;
+}
+.controls a:nth-of-type(1){
     background-position: 0px 0px;
 }
-.page .controls a:nth-of-type(2){
+.controls a:nth-of-type(2){
     background-position: -106px 0px;
 }
-.page .controls a:nth-of-type(3){
+.controls a:nth-of-type(3){
     background-position: -220px 0px;
 }
-.page .controls a:nth-of-type(4){
+.controls a:nth-of-type(4){
     background-position: -405px 0px;
 }
-.page .controls a:nth-of-type(1):hover{
+.controls a:nth-of-type(1):hover{
     background-position: 0px -108px;
 }
-.page .controls a:nth-of-type(2):hover{
+.controls a:nth-of-type(2):hover{
     background-position: -106px -108px;
 }
-.page .controls a:nth-of-type(3):hover{
+.controls a:nth-of-type(3):hover{
     background-position: -220px -108px;
 }
-.page .controls a:nth-of-type(4):hover{
+.controls a:nth-of-type(4):hover{
     background-position: -405px -108px;
 }
-.controls .img{
+.controls .k{
+    width: 60px;
+    height: 4px;
+    background: rgba(255,255,255,1);
     position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition:left .5s;
+}
+.controls a:nth-of-type(1):hover~.k{
+    left: 0px;
+}
+.controls a:nth-of-type(2):hover~.k{
+    left: 80px;
+}
+.controls a:nth-of-type(3):hover~.k{
+    left: 150px;
+}
+.controls a:nth-of-type(4):hover~.k{
+    left: 230px;
+}
+.controls .img{
+    position: fixed;
     top:0;
     left: 0;
     min-width: 100%;
@@ -62,41 +114,32 @@ body {
     height: auto;
     -webkit-background-size: cover;
     transition:all .5s;
+    opacity: 0;
+    z-index: -1;
 }
 .controls div:nth-of-type(1){
+    opacity: 1;
     background-image: url(../images/bg_shoulei.jpg);
-    z-index: -6;
 }
 .controls div:nth-of-type(2){
     background-image: url(../images/bg_xnet.jpg);
-    z-index: -7;
 }
 .controls div:nth-of-type(3){
     background-image: url(../images/bg_member.jpg);
-    z-index: -8;
 }
 .controls div:nth-of-type(4){
     background-image: url(../images/bg_xav.jpg);
-    z-index: -9;
-}
-.controls a:hover~div{
-    opacity: 0;
-    z-index: -10;
 }
 .controls a:nth-of-type(1):hover~div:nth-of-type(1){
     opacity: 1;
-    z-index: -1;
 }
 
 .controls a:nth-of-type(2):hover~div:nth-of-type(2){
     opacity: 1;
-    z-index: -1;
 }
 .controls a:nth-of-type(3):hover~div:nth-of-type(3){
     opacity: 1;
-    z-index: -1;
 }
 .controls a:nth-of-type(4):hover~div:nth-of-type(4){
     opacity: 1;
-    z-index: -1;
 }
